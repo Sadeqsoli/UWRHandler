@@ -1,0 +1,44 @@
+{
+  "name": "com.uwrhnadler.uwr",
+  "displayName": "UWRH - Unity Web Request Handler",
+  "version": "1.0.0",
+  "unity": "2023.2",
+  "description": "UWRHnadler is a Unity package that handles HTTP requests following SOLID principles, providing a clean, maintainable, and extensible way to manage GET and POST requests with support for custom headers and certificates.",
+  "keywords": [
+    "Unity",
+    "Unity-Web-Request",
+    "UWR",
+	"HTTP",
+    "HTTPClient",
+    "API",
+	"Unity-API",
+	"Get",
+	"Post",
+    "JSON",
+    "NEWTON-SOFT"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "SleeplessDev",
+    "email": "solisadeq@gmail.com",
+    "url": "https://github.com/Sadeqsoli"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sadeqsoli/UWRHnadler.git",
+    "directory": "UPMPackage"
+  },
+  "bugs": {
+    "url": "https://github.com/Sadeqsoli/UWRHnadler/issues"
+  },
+  "homepage": "https://github.com/Sadeqsoli/UWRHnadler#readme",
+  "category": "HTTP Requests",
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "https://package.openupm.com"
+  }
+}

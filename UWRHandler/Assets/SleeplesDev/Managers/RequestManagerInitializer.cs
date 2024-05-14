@@ -35,7 +35,7 @@ namespace SleeplessDev
 
 		public async void FetchData()
 		{
-			//TODO: add your own url that works and also fill out known sources to accept all certificates
+			//TODO: add your own url that works and also fill out known sources to accept all certificates https://api.example.com/data
 			string url = "https://trustedsource.com/api/data";
 			var response = await _requestHandler.SendGetRequestAsync(url, Header.None);
 
