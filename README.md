@@ -14,6 +14,9 @@ UWRHnadler is a Unity package that handles HTTP requests following SOLID princip
 2. In Unity, go to `Assets > Import Package > Custom Package`.
 3. Select the downloaded package and import all files.
 
+## Contributing
+Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
+
 ## Usage
 
 1. **Initialize the Request Manager**:
@@ -32,5 +35,27 @@ public class Example : MonoBehaviour
         ISerializer serializer = new JsonSerializer();
         _requestHandler = new RequestManager(certificateHandler, responseHandler, serializer);
     }
+    public async void GetExample()
+    {
+        string url = "https://api.example.com/data";
+        Header header = new Header(); // Customize as needed
+        HttpResponse response = await _requestHandler.SendGetRequestAsync(url, header);
+        
+        if (!response.IsError)
+        {
+            Debug.Log(response.Text);
+        }
+    }
+    public async void PostExample()
+    {
+        string url = "https://api.example.com/data";
+        var data = new { Key = "value" }; // Your data object
+        Header header = new Header(); // Customize as needed
+        HttpResponse response = await _requestHandler.SendPostRequestAsync(url, data, header);
+        
+        if (!response.IsError)
+        {
+            Debug.Log(response.Text);
+        }
+    }
 }
-
