@@ -13,6 +13,10 @@ UWRHnadler is a Unity package that handles HTTP requests following SOLID princip
 1. Download the package from the [Releases](https://github.com/Sadeqsoli/UWRHnadler/releases) page.
 2. In Unity, go to `Assets > Import Package > Custom Package`.
 3. Select the downloaded package and import all files.
+4. **(Optional)** For more complex JSON handling, install Newtonsoft Json.NET:
+    - Open the Unity Package Manager (`Window > Package Manager`).
+    - Click the `+` button and select `Add package from git URL...`.
+    - Enter `https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git` and click `Add`.
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue to discuss your ideas.
