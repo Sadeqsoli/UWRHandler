@@ -1,5 +1,5 @@
-# UWRHnadler
-UWRHnadler is a Unity package that handles HTTP requests following SOLID principles, providing a clean, maintainable, and extensible way to manage GET and POST requests with support for custom headers and certificates.
+# UWRHandler
+UWRHandler is a Unity package that handles HTTP requests following SOLID principles, providing a clean, maintainable, and extensible way to manage GET and POST requests with support for custom headers and certificates.
 ## Features
 
 - **Single Responsibility Principle (SRP)**: Each class handles a specific responsibility.
@@ -10,7 +10,7 @@ UWRHnadler is a Unity package that handles HTTP requests following SOLID princip
 
 ## Installation
 
-1. Download the package from the [Releases](https://github.com/Sadeqsoli/UWRHnadler/releases) page.
+1. Download the package from the [Releases](https://github.com/Sadeqsoli/UWRHandler/releases) page.
 2. In Unity, go to `Assets > Import Package > Custom Package`.
 3. Select the downloaded package and import all files.
 4. **(Optional)** For more complex JSON handling, install Newtonsoft Json.NET:
