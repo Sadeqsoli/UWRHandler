@@ -1,5 +1,6 @@
 # UWRHandler
 UWRHandler is a Unity package that handles HTTP requests following SOLID principles, providing a clean, maintainable, and extensible way to manage GET and POST requests with support for custom headers and certificates.
+
 [![openupm](https://img.shields.io/npm/v/com.uwrhandler.uwr?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.uwrhandler.uwr/)
 
 ## Features
